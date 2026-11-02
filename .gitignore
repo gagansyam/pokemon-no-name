@@ -1,0 +1,26 @@
+# Build artifacts
+build/
+pokemon_battle
+tests/test_sim
+
+# GBA build outputs & temporary saves
+*.gba
+*.raw
+*.sav
+*.o
+
+# Logs
+*.log
+battle_log.txt
+battle_history.log
+
+# System & OS
+.DS_Store
+Thumbs.db
+
+# Archives
+toolchain/*.tar.xz
+
+# Internal agent tooling
+.agent/
+
